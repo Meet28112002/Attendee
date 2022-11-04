@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+.btn{
+    width: 250px;
+    height: 84px;
+    position: relative;
+    top:20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#71C5EE, #025091);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+}
+.btn1{
+    width: 250px;
+    height: 84px;
+    position: relative;
+    top:20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#025091,#71C5EE);
+    margin-bottom: 20px;
+}
+.todayattendence{
+    /* background-color: #025091; */
+    height: 600px;
+    width: 600px;
+}
+table{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+tr{
+    border-collapse: collapse;
+}
+th{
+    background-color:#71C5EE;
+    width: 600px;
+    font-family: 'Inter';
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-collapse: collapse;
+    border: 2px solid #71C5EE;
+}
+td{
+    background-color:white;
+    width: 600px;
+    font-family: 'Inter';
+    height: 50px;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+    text-align: center;
+
+}
+.lasttr{
+    background-color:#71C5EE;
+    width: 600px;
+    font-family: 'Inter';
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+.hr{
+    padding: 0 5px 0 5px ;
+}
+.ul{
+    margin-top: 20px;
+    background-color:#5E3CBC;
+    width: 618px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.todayattendence li{
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    /* padding-left: 60px; */
+    /* background-color:#025091; */
+    /* width: 600px; */
+    font-family: 'Inter';
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    /* color: white; */
+}
+
+.ul2{
+    
+    width: 618px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+/*CHANGE IN LEAVEBOX******************************************************************/
+#addTitle{
+    margin: 15px 0 15px 20px;
+    height: 30px;
+    width: 250px;
+    border-radius: 2px;
+    border: none;
+  }
+  #addTxt{
+    margin: 15px 0 5px 20px;
+    height: 30px;
+    width: 250px;
+    border-radius: 2px;
+    border: none;
+  }
+  #addBtn{
+    height: 30px;
+    width: 70px;
+    background-color: #33BF39;
+    border: none;
+    border-radius:4px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .hr{
+    width: 400px;
+    margin-bottom: 10px;
+  }
+  .noteCard{
+    background-color: White;
+    padding: 2px 2px 2px 2px;
+    width: 18px;
+    height: 200px;
+    font-family: 'Inter';
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(210, 206, 206);
+ }
+  .noteCard1{
+     background-color: White;
+     padding: 2px 2px 2px 2px;
+     width: 18px;
+     height: 200px;
+     font-family: 'Inter';
+     margin-bottom: 20px;
+     border-radius: 10px;
+     border: 1px solid rgb(210, 206, 206);
+  }
+  .card-body{
+    /* background-color: #025091; */
+    margin: 15px 15px 15px 15px;
+  }
+  .card-title{
+    margin-bottom: 20px;
+  }
+  .card-text{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .cancel{
+    width: 150px;
+    height: 40px;
+    background-color:red;
+    color: aliceblue;
+    border: none;
+  }
+  .approve{
+    width: 120px;
+    height: 40px;
+    background-color:#33BF39;
+    color: aliceblue;
+    border: none;
+    margin-right: 10px;
+  }
+  .decline{
+    width: 120px;
+    height: 40px;
+    background-color:red;
+    color: aliceblue;
+    border: none;
+  }

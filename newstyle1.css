@@ -1,0 +1,24 @@
+.log2 {
+    padding: 8px 8px 30px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: "Inter";
+  }
+  .log3{
+    margin-top: 100px;
+    /* padding: 100px 8px 8px 8px; */
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: "Inter";
+    /* background-color: #71C5EE; */
+  }
+  .top1{
+    margin-top: 10px;
+}
